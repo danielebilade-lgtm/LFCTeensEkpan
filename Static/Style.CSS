@@ -1,0 +1,97 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO SECTION */
+section:first-of-type {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+                url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+section:first-of-type p {
+    margin: 5px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+section:first-of-type h1 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+    letter-spacing: 2px;
+}
+
+section:first-of-type h3 {
+    font-weight: normal;
+    color: #ccc;
+}
+
+/* WHITE CONTENT AREA */
+section:nth-of-type(2),
+section:nth-of-type(3),
+section:nth-of-type(4) {
+    background: #f4f4f4;
+    padding: 25px 20px;
+}
+
+/* DESCRIPTION TEXT */
+section:nth-of-type(2) p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* WHAT WE DO */
+section:nth-of-type(3) {
+    text-align: center;
+}
+
+section:nth-of-type(3) h2 {
+    margin-bottom: 15px;
+}
+
+section:nth-of-type(3) p {
+    max-width: 650px;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+/* CTA SECTION */
+section:nth-of-type(4) {
+    text-align: center;
+}
+
+section:nth-of-type(4) h2 {
+    margin-bottom: 10px;
+}
+
+section:nth-of-type(4) p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* BUTTON */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    background: red;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* BUTTON HOVER */
+a:hover {
+    background: darkred;
+}
